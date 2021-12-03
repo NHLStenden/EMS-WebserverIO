@@ -27,7 +27,7 @@ const byte sensorPin = 0;   // Sensor on channel A0
 
 // Enter a MAC address and IP address for your controller below. The IP address will be dependent on your local network:
 byte mac[] = {0xAA, 0xBB, 0xCC, 0x00, 0x11, 0x22};  // TODO: edit this to match your Ethernet Shield
-IPAddress ip(192, 168, 1, 2);                       // TODO: edit this to match your network  
+IPAddress ip(192, 168, 1, 3);                       // TODO: edit this to match your network  
 
 // Initialize the Ethernet server library (port 80 is default for HTTP):
 EthernetServer server(80);
